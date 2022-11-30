@@ -9,7 +9,7 @@ Remember:
 - Try to have functions that only do one “thing” (e.g. print a message, validate user input, check what message to display)
 - Check for invalid inputs, notifying the user and re-prompting for a valid input
 
-HOW THE CODE WORKS: the code is split into three different functions for clarity.. The first generates the target (correct) number to be guessed, the second validates the type and value of the guess, and the third runs the game itself (using the first two helper functions).
+HOW THE CODE WORKS: the code is split into three different functions for clarity. The first generates the target (correct) number to be guessed, the second validates the type and value of the guess, and the third runs the game itself (using the first two helper functions).
 """
 
 import random
