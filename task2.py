@@ -26,7 +26,7 @@ def int_validator(guess: str):  # either v
 
 def int_guesser():
     target = int_randomiser()
-    guess = input('Guess a number between 1 to 100.')
+    guess = input('Guess a number between 1 to 100.\n')
 
     while int_validator(guess) == 'invalid':  # if the guess is invalid, the user will have to re-input it
         guess = input('Guess a VALID number between 1 to 100.')
@@ -38,3 +38,7 @@ def int_guesser():
         return "Your guess was higher than the target number."
     elif int(guess) == target:
         return "Your guess was correct."
+
+# run the game
+# print statement is required, because return does not show the value to the user
+print(int_guesser())
